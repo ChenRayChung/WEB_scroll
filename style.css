@@ -35,4 +35,15 @@ section:nth-of-type(odd) {
 section:nth-of-type(even) {
   background: pink;
 }
+
+#arrow {
+  background-image: url(./arrow.png);
+  height: 32px;
+  width: 32px;
+  right: 20px;
+  bottom: 20px;
+  z-index: 2;
+  position: fixed;
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */
